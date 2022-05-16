@@ -1,0 +1,30 @@
+body {
+    background-image: url(labirent.jpg);
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+    font-family: 'Bebas Neue', cursive;
+
+}
+#box {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    background-color:rgb(255, 255, 255,0.0);
+}
+h1 {
+    text-align: center;
+    background-color: azure;
+    width: 20%;
+    margin: 0 auto;
+
+}
+#box img {
+    width: 45px;
+    height: 45px;
+}
+
+   
+    

@@ -1,0 +1,73 @@
+body {
+    font-family: 'Bebas Neue', cursive;
+    width: 100%;
+    margin: 0 auto;
+    background: rgba(104,141,167,1);
+}
+header {
+    margin: 60px auto;
+}
+#firstartists {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    position: fixed;
+    
+}
+img{
+    margin-top:15px;
+    border-radius: 50px;
+   
+}
+#firstartists img:hover {
+    transition: all ease 1s;
+    transform: rotate(360deg);
+    
+}
+.modalDialog {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,0.7);
+    opacity: 0;
+    transition: all 0.3s ease;
+    pointer-events: none;
+    
+}
+.modalDialog:target {
+    opacity: 1;
+    pointer-events: auto;
+    z-index: 1;
+}
+.modalDialog > div {
+    background: rgb(255, 255, 255,0.99);
+    width: 30%;
+    padding: 2% 4%;
+    margin: 10% auto;
+    text-align: center;
+    position: relative;
+}
+.closeButton {
+    background-color: rgb(56, 63, 78);
+	color: #fff;
+	font-size: 35px;
+	font-weight: 100;
+    font-family: monospace;
+	text-decoration: none;
+	line-height: 40px;
+	width: 40px;
+	position: absolute;
+	top: -18px;
+	right: -18px;
+	text-align: center;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+	transition: all 0.3s ease;
+}
+.closeButton:hover {
+    background-color: rgb(107, 107, 107);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.3);
+}
+

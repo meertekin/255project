@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+    <link rel="stylesheet" href="welcomepage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+        
+    <style>
+        nav {
+        width: 100%;
+        height: 50px;
+        background: rgb(229, 126, 0,0.5);
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        left: 0px;
+        margin: 0;
+    }
+    nav a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+    nav li {
+        list-style-type: none;
+        display: inline-block;
+        padding: 20px 30px;
+
+    }
+    nav ul {
+        margin: 0;
+        padding: 0;
+    }  
+    .menu {
+        text-align: center;
+    } 
+    nav ul li a:hover {
+        color: rgb(0, 0, 0);
+        font: bolder;
+    }
+    nav#menu ul li#bar ul li#artistmenu {
+        position: absolute;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    nav#menu ul li#bar ul li#artistmenu li {
+        float: none;
+    }
+    nav#menu ul li#bar ul li#artistmenu li a {
+        width: 200px;
+        background-color:  rgb(229, 126, 0,0.8);
+        border-bottom: 1px solid black;
+
+    }
+    nav#menu ul li#bar ul li#artistmenu li a:hover {
+        background-color: black;
+    }
+   
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="menu">
+        <ul>
+          <li><a href="welcomepage.html">Home</a></li>
+          <li><a href="artist.html">Artists</a>
+          <li><a href="#openModall">Location</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="surprise.html">Surprise</a></li>
+          
+          
+          </ul>    
+       </div>
+    </nav>
+    <h1> <br> CHILL & OUT FEST</h1>
+    <section class="two_columns">
+        <div class="column">
+        <p>It set out to bring together the electronic music audience at Chill&Out Fest, and by bringing together the most experienced staff of Turkey in the field of organization, it performed above expectations in terms of service quality,</p>
+        </div>
+        
+        <div class="column">
+        <p>guest satisfaction and number of participants. It is an organization that has set its heart on hosting many signature events in many cities.<br />
+        <span class="bold_text">May 20 21 22 </span>, 2022, ( Friday Saturday Sunday). From <span class="bold_text">10:00 to 19:00</span>, Volkswagen Arena, Istanbul</p>
+        </div>
+        </section>
+        <br>
+        <a href="#openModal" class="button">REGISTRATION</a>
+        <div class="analog">
+            <h2 id="clock"></h2>
+            <script src="clock.js" type="text/javascript"></script>
+        </div>
+        <div id="openModal" class="modalDialog">
+        <div>
+        <a href="#" class="closeButton"> x </a>
+        <h3 style="color: rgb(56, 63, 78);">REGISTRATION FORM</h1>
+        <textarea placeholder="Name "></textarea>
+        <textarea placeholder="Phone Number"></textarea>
+        <textarea placeholder="Email"></textarea>
+        <a href="#" class="sendbutton">SEND</a>
+    </div>
+</div>
+<div id="openModall" class="modallDialog">
+    <div>
+    <a href="#" class="closeButton"> x </a>
+    <h3 style="color: rgb(56, 63, 78);">LOCATION</h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3006.1792012461256!2d29.005514515216333!3d41.108777221183615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab5ce5652f4c3%3A0x93d7757dd34b126d!2sVolkswagen%20Arena!5e0!3m2!1str!2str!4v1652629637186!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</div>
+<div id="contact" class="contact">
+    <div>
+    <a href="#" class="closeButton"> x </a>
+    <h3 style="color: rgb(56, 63, 78);">CONTACT</h1>
+        <button><a href="https://www.instagram.com/meertekin/">Instagram</a></button>
+        <button><a href="https://www.linkedin.com/in/mert-ekin/">LinkedIn</a></button>
+        <button><a href="https://open.spotify.com/artist/5wMWEH4MlUJCnag06xhdxl?si=NshvIocNS5u6aY0zvWgyZQ">Spotify</a></button>
+    </div>
+</div>
+
+</header>
+
+<footer>
+    <img src="artistimages/biletix.png" alt="">
+    <img src="artistimages/applemusic.png" alt="">
+    <img src="artistimages/spotify.png" alt="">
+    <img src="artistimages/redbull.png" alt="">
+    <img src="artistimages/Babylon.png" alt="">
+</footer>
+</body>
+</html>
